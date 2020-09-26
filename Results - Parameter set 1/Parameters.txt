@@ -1,0 +1,11 @@
+max_acceleration = 2
+ped_radius = 0.25
+mass = 1.6 
+domain_height = 25
+domain_length = 25
+wall_const =0.8 
+wall_exponent = 10
+interped_const =1
+interped_exp  = 3
+ds_weight_fac = 1.5
+dt =0.1         

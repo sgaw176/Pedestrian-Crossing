@@ -1,0 +1,11 @@
+max_acceleration = 2
+ped_radius = 0.25
+mass =1 #arbitrary 
+domain_height = 25
+domain_length = 25
+wall_const =0.8 #paramaters chosen for the wall repulsion model
+wall_exponent = 10
+interped_const =1#parameters of the ped-ped repulsion model
+interped_exp  =8
+ds_weight_fac = 2#optionalextra weighting for downstream peds
+dt =0.1         #timestep; choose by sensitivity analysis if changing repulsion models
